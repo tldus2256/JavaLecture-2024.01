@@ -52,6 +52,13 @@ public class Ex11_For {
 			System.out.println(fruit);
 		
 		
+		
+		Scanner scan = new Scanner(System.in);
+		int time = 0;
+		for (int i = 0; i <= 24; i++) {
+			System.out.println(i);
+		}
+		
 	}
 
 }
