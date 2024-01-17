@@ -22,7 +22,8 @@ public class Ex99_Excersise {
 		int score2 = 72;
 
 		switch (score2 / 10) {
-		    case 9:
+			case 10:
+			case 9:
 		        System.out.println("A학점");
 		        break;
 		    case 8:
@@ -33,7 +34,7 @@ public class Ex99_Excersise {
 		        break;
 		    default:
 		        System.out.println("F학점");
-		        break;
+		        
 		}
 		
 		// if문과 break,continue -> for문
@@ -48,7 +49,14 @@ public class Ex99_Excersise {
 			}
 			
 		}
-						
+		
+		for (int i=0;;i++) {
+			if (i>10)
+				break;
+			if (i % 2 == 1)
+				continue;
+			System.out.println(i);
+		}
 		
 	
 //		// while 문으로
@@ -65,6 +73,7 @@ public class Ex99_Excersise {
 		
 //		
 //		for(int i=0; i < 5; i++) {
+			int count= 0;
 //			for(int k = 0; k < 3; k++) {
 //				if (i == 2) {
 //					continue;
@@ -72,8 +81,10 @@ public class Ex99_Excersise {
 //				if (k == 1) {
 //					break;
 //				}
-//				System.out.println("A");
+//				System.out.println("A")
+				count ++;
 //			}
+				System.out.println(count);
 //		}
 	}
 	
