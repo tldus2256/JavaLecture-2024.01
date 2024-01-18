@@ -1,4 +1,4 @@
-package ch03_operation;
+package src.ch03_operation;
 
 public class Ex01_Operation {
 

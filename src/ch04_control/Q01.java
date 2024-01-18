@@ -1,4 +1,4 @@
-package ch04_control;
+package src.ch04_control;
 
 public class Q01 {
 

@@ -1,4 +1,4 @@
-package ch02_type;
+package src.ch02_type;
 
 public class Ex01_Variable {
 	private static int num = 2;
@@ -36,7 +36,7 @@ public class Ex01_Variable {
 		
 		
 		int a = 100; // 정수
-		double b = 10.5 //실수
+		double b = 10.5 ;//실수
 		boolean c = true; // 불리언 true, false 입력 가능
 		char d = 'A';//문자하나
 		String e = "Hello Java"; // 문자열, 문자열을 달기 위한 특별한 타입

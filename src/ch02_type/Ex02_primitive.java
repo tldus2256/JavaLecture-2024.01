@@ -1,4 +1,4 @@
-package ch02_type;
+package src.ch02_type;
 
 public class Ex02_primitive {
 	
@@ -47,4 +47,4 @@ public class Ex02_primitive {
 		
 		
 
-}
+}}

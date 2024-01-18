@@ -1,4 +1,4 @@
-package ch04_control;
+package src.ch04_control;
 
 import java.util.Scanner;
 
@@ -53,7 +53,7 @@ public class Ex11_For {
 		
 		
 		
-		Scanner scan = new Scanner(System.in);
+		Scanner scan1 = new Scanner(System.in);
 		int time = 0;
 		for (int i = 0; i <= 24; i++) {
 			System.out.println(i);

@@ -1,4 +1,4 @@
-package ch01_intro;
+package src.ch01_intro;
 
 // class 이름 Ex01_HelloWorld 대문자로 시작
 public class Ex01_HelloWorld {

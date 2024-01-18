@@ -1,4 +1,4 @@
-package ch04_control;
+package src.ch04_control;
 
 public class Ex04_Switch {
 

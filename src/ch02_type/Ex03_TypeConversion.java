@@ -1,4 +1,4 @@
-package ch02_type;
+package src.ch02_type;
 
 public class Ex03_TypeConversion {
 	
@@ -36,5 +36,5 @@ public class Ex03_TypeConversion {
 	}
 	
 }
-} 	
+
 

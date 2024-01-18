@@ -1,4 +1,4 @@
-package ch05_reference;
+package src.ch05_reference;
 
 public class Ex11_String {
 
@@ -14,8 +14,8 @@ public class Ex11_String {
 		String str4 = "문자열";
 		System.out.println(str2 == str4); 	//str2와 str4가 가리키는 곳이 동일함
 		
-		Person james = new Person("제임스", 29, "프로그래머");
-		Person maria = new Person("마리아", 23, "학생");
+		ch05_reference.Person james = new ch05_reference.Person("제임스", 29, "프로그래머");
+		ch05_reference.Person maria = new ch05_reference.Person("마리아", 23, "학생");
 		System.out.println(james + " - 123");		//Person class의 toString() method 적용
 		System.out.println(maria + " - 456");
 	}

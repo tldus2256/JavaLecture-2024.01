@@ -1,4 +1,4 @@
-package ch02_type;
+package src.ch02_type;
 
 import java.io.IOException;
 import java.util.Scanner;
