@@ -1,4 +1,4 @@
-package src.ch06_class.sec05_Melon;
+package src.ch06_class.sec11_Melon;
 
 import java.util.Scanner;
 

@@ -1,14 +1,14 @@
-package src.ch06_class.sec05_Melon;
+package src.ch06_class.sec11_Melon;
 
-public class Melon {
-   // rank, title, artist, album, like
+public class MelonChart {
     private int rank;
     private String title;
     private String artist;
     private String album;
     private int like;
 
-    public Melon(int rank, String title, String artist, String album, int like) {
+    public MelonChart() { } //기본 생성자, 다른 생성자 있으면 반드시 만들기
+    public MelonChart(int rank, String title, String artist, String album, int like) {
         this.rank = rank;
         this.title = title;
         this.artist = artist;
@@ -18,7 +18,7 @@ public class Melon {
 
     @Override
     public String toString() {
-        return "Melon{" +
+        return "MelonChart{" +
                 "rank=" + rank +
                 ", title='" + title + '\'' +
                 ", artist='" + artist + '\'' +

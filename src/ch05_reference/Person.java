@@ -1,8 +1,9 @@
 package ch05_reference;
 
 public class Person {
-	private String name;
-	private int age;
+	public String name;
+	private String name1;
+	public int age;
 	private String job;
 	
 	public Person() {}
@@ -35,7 +36,11 @@ public class Person {
 	public void setJob(String job) {
 		this.job = job;
 	}
-	
-	
-	
+
+
+	public void eat() {
+	}
+
+	public void sleep() {
+	}
 }
