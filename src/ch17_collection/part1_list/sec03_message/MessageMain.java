@@ -18,16 +18,12 @@ public class MessageMain {
 
         switch (select){
             case 1:
-                System.out.println("여기??????????????");
                 List<Message> messageList = messageService.getMessageListAll();
-                System.out.println("??????????????????????????????????????????????");
-                System.out.println(messageList.size());
-                System.out.println(messageList);
-                if(messageList.isEmpty()){
+                if(messageService.getMessageListAll().isEmpty()){
                     System.out.println("목록이 존재하지 않습니다.");
                     break;
                 }
-                for (Message m:messageList){
+                for (Message m: messageService.getMessageListAll()){
                     System.out.println(m);
                 }
                 break;
