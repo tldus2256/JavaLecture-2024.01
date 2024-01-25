@@ -10,6 +10,10 @@ public class Message {
     private LocalDateTime modTime;
     private int isDeleted;
 
+    public Message(String newWriter, String newContent) {
+
+    }
+
     @Override
     public String toString() {
         return "Member[" +
@@ -60,6 +64,14 @@ public class Message {
     public void setIsDeleted(int isDeleted) {
         this.isDeleted = isDeleted;
     }
+
+    public Message(int mid, String content, String writer, LocalDateTime modTime) {
+        this.mid = mid;
+        this.content = content;
+        this.writer = writer;
+        this.modTime = modTime;
+    }
+
     public Message(int mid, String content, String writer, LocalDateTime modTime, int isDeleted) {
         this.mid = mid;
         this.content = content;
