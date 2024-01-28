@@ -13,11 +13,16 @@ public class Student {
 
     @Override
     public int hashCode() {
-        return Objects.hash(studentNum, name);
+//        return studentNum;
+        return Objects.hash(studentNum);
     }
 
     @Override
     public boolean equals(Object obj){
+//        if(obj instanceof Student){
+//            Student st = (Student) obj;
+//            return this.studentNum == st.studentNum;
+//        }
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
         Student student = (Student) obj;
