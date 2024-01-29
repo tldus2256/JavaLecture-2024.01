@@ -7,6 +7,9 @@ public class MelonChart {
     private String album;
     private String imgSrc;
 
+    public MelonChart(int rank, String title, String artist, String album, String src) {
+    }
+
     @Override
     public String toString() {
         return "MelonChart{" +
