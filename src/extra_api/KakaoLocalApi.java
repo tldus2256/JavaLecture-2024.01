@@ -19,7 +19,7 @@ import java.util.Map;
 public class KakaoLocalApi {
     public Map<String,Double> getGeocode(String addr) throws Exception {
     BufferedReader br = new BufferedReader(new FileReader("C:/Temp/kakaoApiKey.txt"));
-    String kakaokey = br.readLine();
+        String kakaoKey = br.readLine();
         br.close();
     String query = URLEncoder.encode(addr,"utf-8");
     String apiUrl = "https://dapi.kakao.com/v2/local/search/address.json"
@@ -28,11 +28,14 @@ public class KakaoLocalApi {
         URL url = new URL(apiUrl);
         // Header setting
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-        conn.setRequestProperty("Authorization", "KakaoAK" + kakaokey);
+//        conn.setRequestMethod("GET");
+        conn.setRequestProperty("Authorization", "KakaoAK " + kakaoKey);
+//        conn.setRequestProperty("content-type", "application/json");
+//        conn.setDoOutput(true);
 
         // 응답결과 확인
         int responseCode = conn.getResponseCode();
-        System.out.println(responseCode);
+//        System.out.println(responseCode);
 
         br = new BufferedReader(new InputStreamReader(conn.getInputStream(),"utf-8"));
         StringBuffer sb = new StringBuffer();

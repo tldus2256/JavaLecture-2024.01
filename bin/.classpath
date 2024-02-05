@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="ch17_collection/part1_list/sec12_member_sort/|ch14_exception/sec09_class/|ch17_collection/part2_set/sec12_member/|ch12_interface/sec03_multiple/|ch12_interface/sec11_bank/|ch12_interface/sec02_interface/|hw/hw_0125/Q31/" kind="src" path=""/>
+	<classpathentry kind="src" path="ch12_interface/sec02_interface"/>
+	<classpathentry kind="src" path="ch12_interface/sec03_multiple"/>
+	<classpathentry kind="src" path="ch12_interface/sec11_bank"/>
+	<classpathentry kind="src" path="ch14_exception/sec09_class"/>
+	<classpathentry kind="src" path="ch17_collection/part1_list/sec12_member_sort"/>
+	<classpathentry kind="src" path="ch17_collection/part2_set/sec12_member"/>
+	<classpathentry kind="src" path="hw/hw_0125/Q31"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
