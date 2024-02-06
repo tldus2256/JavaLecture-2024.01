@@ -1,4 +1,4 @@
-package src.ch17_collection.part1_list.sec03_message;
+package src.mysql.sec05_message;
 
 import java.time.LocalDateTime;
 

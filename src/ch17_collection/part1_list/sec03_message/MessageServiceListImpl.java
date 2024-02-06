@@ -6,7 +6,7 @@ import java.util.List;
 
 public class MessageServiceListImpl implements MessageService{
     private static List<Message> list = new ArrayList<>();
-    private int index = 0;
+    private int index = 101;
 
     public MessageServiceListImpl() {
         list.add(new Message(index++,"자바 세계에 오신걸 환영합니다.", "제임스", LocalDateTime.now()));
