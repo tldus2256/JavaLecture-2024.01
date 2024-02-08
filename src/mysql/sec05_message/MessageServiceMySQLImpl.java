@@ -24,16 +24,16 @@ public class MessageServiceMySQLImpl implements MessageService{
 
     @Override
     public void insertMessage(Message message) {
-
+        msgDao.insertMessage(message);
     }
 
     @Override
     public void updateMessage(Message message) {
-
+        msgDao.updateMessage(message);
     }
 
     @Override
     public void deleteMessage(int mid) {
-
+        msgDao.deleteMessage(mid);
     }
 }
